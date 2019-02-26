@@ -1,0 +1,23 @@
+{
+  "name": "auto-update-own",
+  "version": "2.0.0",
+  "description": "test by kather",
+  "main": "index.js",
+  "repository": "https://github.com/katherdx/electron",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "build --win",
+    "ship": "build --win -p always",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-builder": "^20.38.5",
+    "electron": "^4.0.5"
+  },
+  "dependencies": {
+    
+    "electron-updater": "^4.0.6"
+  }
+}
